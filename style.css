@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    background-color: rgb(0, 0, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to_do_container{
+    width: 500px;
+    height: auto;
+    background-color: transparent;
+    border: 1px solid gray;
+
+    padding: 10px;
+}
+.heading h1{
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 10px 0px;
+    color:white;
+}
+.to_do_container .taskAdd{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.to_do_container .taskAdd .fild_input input{
+    width: 300px;
+    padding: 10px 5px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.to_do_container .taskAdd .add_btn input{
+    
+    padding: 14px 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all linear 0.4s;
+    cursor: pointer;
+    
+
+
+}
+.to_do_container .taskAdd .add_btn input:hover{
+    background-color: teal;
+    color: white;
+}
+
+#delete_btn button{
+    padding: 14px 30px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all linear 0.4s;
+    cursor: pointer;
+    margin: 10px 0px;
+    
+}
+#delete_btn button:hover{
+    background-color: teal;
+    color: white;
+}
+#task_list{
+    color: white;
+}
+
+ 
